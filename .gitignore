@@ -1,0 +1,10 @@
+# 配置git忽略文件
+/node_modules
+coverage
+package-lock.json
+.DS_Store
+**/.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
