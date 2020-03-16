@@ -1,4 +1,4 @@
-# 配置git忽略文件
+# 配置git忽略文 件 
 /node_modules
 coverage
 package-lock.json

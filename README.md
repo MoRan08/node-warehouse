@@ -14,7 +14,7 @@ nodejs + express + mongodb + mongoose + es6/7 + vue + element-ui
 ```
 
 ```
-git clone https://github.com/bailicangdu/node-elm
+git clone https://github.com/MoRan08/node-warehouse
 
 cd node-elm
 
