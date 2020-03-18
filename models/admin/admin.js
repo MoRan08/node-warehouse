@@ -7,7 +7,6 @@ const Schema = mongoose.Schema;
 const adminSchema = new Schema({
     user_name: String,
     password: String,
-    id: Number,
     create_time: String,
     admin: {
         type: String,
@@ -19,12 +18,8 @@ const adminSchema = new Schema({
         default: 'default.jpg'
     },
     city: String,
-    gender: Number, //1:男性、2：女性
+    gender: {type:Number,default:1}, //1:男性、2：女性
     call_phone: Number,
-});
-
-adminSchema.index({
-    id: 1
 });
 
 const Admin = mongoose.model('Admin', adminSchema);
